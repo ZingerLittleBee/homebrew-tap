@@ -13,6 +13,9 @@ tap "zingerlittlebee/tap"
 brew "<formula>"
 ```
 
-## Documentation
+## How do I install these casks?
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+`brew install --cask zingerlittlebee/tap/<cask>`
+
+Or `brew tap zingerlittlebee/tap` and then `brew install --cask <cask>`.
+
