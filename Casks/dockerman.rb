@@ -1,12 +1,12 @@
 cask "dockerman" do
-  version "2.1.1"
+  version "2.4.0"
   sha256 :no_check
 
   on_arm do
-    url "https://assets.dockerman.app/#{version}/Dockerman_#{version}_aarch64.dmg"
+    url "https://assets.dockerman.app/#{version}/Dockerman_#{version}_universal.dmg"
   end
   on_intel do
-    url "https://assets.dockerman.app/#{version}/Dockerman_#{version}_x64.dmg"
+    url "https://assets.dockerman.app/#{version}/Dockerman_#{version}_universal.dmg"
   end
   
   name "Dockerman"
