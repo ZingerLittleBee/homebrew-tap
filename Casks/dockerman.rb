@@ -1,5 +1,5 @@
 cask "dockerman" do
-  version "6.3.1"
+  version "6.4.0"
   sha256 :no_check
 
   on_arm do
